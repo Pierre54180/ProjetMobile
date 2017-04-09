@@ -1,0 +1,324 @@
+
+
+.padding {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f6f6f6+0,e4e4e4+52,f1f1f1+100 */
+    background: rgb(246,246,246); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(246,246,246,1) 0%, rgba(228,228,228,1) 52%, rgba(241,241,241,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(246,246,246,1) 0%,rgba(228,228,228,1) 52%,rgba(241,241,241,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(246,246,246,1) 0%,rgba(228,228,228,1) 52%,rgba(241,241,241,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f6f6', endColorstr='#f1f1f1',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+
+
+@font-face {
+    font-family: "orange_juiceregular";
+    src: url('/../img/or.ttf');
+}
+@font-face {
+    font-family: 'orange_juiceregular';
+    src: url('orange_juice_2.0-webfont.woff2') format('woff2'),
+    url('orange_juice_2.0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+h1
+{
+    background-color:black ;
+    position: relative;
+    border: 5px Black  ridge;
+    box-shadow: 6px 6px 0px black;
+    text-align: center;
+    font-family: 'orange_juiceregular';
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color : black;
+}
+h1 img
+{
+    background-color:#33CD5F;
+}
+
+
+.Titre
+{
+    background-color:#33CD5F ;
+}
+.test
+{
+    font-family: 'orange_juiceregular';
+}
+.bb {
+    font-family: "orange_juiceregular";
+    font-size : 15px;
+    background-color:#33CD5F ;
+    position: relative;
+    border: 5px Black  ridge;
+    box-shadow: 6px 6px 0px black;
+
+}
+
+.bb2
+{   font-family: "orange_juiceregular";
+    float : left;
+
+    height: 120px;
+    width: 35%;
+
+}
+.bb2 img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top : 5px;
+
+    border:2px solid black;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    border-radius:7px;
+
+}
+h1 img
+{
+    display: block;
+    margin : auto;
+}
+
+
+.main {
+     opacity :0.5;
+     width: 600px;
+     height: 500px;
+     display:block;
+    margin-left: auto;
+    margin-right: auto;
+     color: #777;
+     background-color: black;
+     opacity :0.5;
+     -webkit-transition: opacity 0s linear;
+     -moz-transition: opacity 0s linear;
+     -o-transition: opacity 0s linear;
+     -ms-transition: opacity 0s linear;
+     transition: opacity 0s linear;
+
+
+     -webkit-transform: rotate(-5deg);
+     -moz-transform: rotate(-5deg);
+     -o-transform: rotate(-5deg);
+     -ms-transform: rotate(-5deg);
+     -transform: rotate(-5deg);
+ }
+
+
+.main2 {
+    opacity :0.5;
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    color: #777;
+    background-color: black;
+    opacity :0.5;
+    -webkit-transition: opacity 0s linear;
+    -moz-transition: opacity 0s linear;
+    -o-transition: opacity 0s linear;
+    -ms-transition: opacity 0s linear;
+    transition: opacity 0s linear;
+
+
+    -webkit-transform: rotate(+5deg);
+    -moz-transform: rotate(+5deg);
+    -o-transform: rotate(+5deg);
+    -ms-transform: rotate(+5deg);
+    -transform: rotate(+5deg);
+}
+
+.main:focus, .main:hover
+{
+    opacity:1;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -transform: rotate(0deg);
+}
+
+.main2:focus, .main2:hover
+{
+    opacity:1;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -transform: rotate(0deg);
+}
+
+#mavideo
+{
+
+    width: 600px;
+    height: 500px;
+    display: inline-block;
+    color: #777;
+}
+#mavideo:hover, #mavideo:focus {
+    opacity:1;
+}
+
+#controles {
+    height: 25px;
+    position: relative;
+    top: -30px;
+    opacity: 0.2;
+    transition: opacity 0.3s ease-in-out;
+    background-color: #e6e6e6;
+
+}
+
+#controles:hover {
+    opacity: 20;
+}
+
+.droite {
+    float: right;
+}
+#controles button
+{
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+
+}
+#buttonPlay {
+
+    background-image: url("../img/tt.png");
+    background-color: #e6e6e6;
+
+}
+#buttonPause{
+
+    background-image: url("../img/pause.png");
+    background-color: #e6e6e6;
+
+}
+#buttonStop {
+
+    background-image: url("../img/Stop.png");
+    background-color: #e6e6e6;
+}
+
+#buttonSuiv{
+
+    background-image: url("../img/rapid.png");
+    background-color: #e6e6e6;
+}
+
+#buttonPre{
+
+    background-image: url("../img/precedent.png");
+    background-color: #e6e6e6;
+}
+
+
+button:hover {
+    background-color: #fff;
+}
+
+button.checked {
+    background-color: #ccc;
+}
+
+
+ul{
+    display: table;
+    width: 100px;
+    margin-left:10%;
+    margin-top: 12px;
+}
+ul li{
+    display: table-cell;
+    width: 180px;
+    height: -20px;
+    text-align: center;
+    vertical-align: middle;
+}
+ul li img{
+    display: block;
+    width: 300px;
+    height: auto;
+    border: 5px solid white;
+    border-bottom-width: 20px;
+    box-shadow: 0 0 5px black;
+}
+
+ul li:nth-child(1) img{
+    transform: rotate(-8deg) scale(1.1);
+}
+ul li:nth-child(2) img{
+    transform: rotate(2deg);
+}
+ul li:nth-child(3) img{
+    transform: rotate(-8deg) scale(1.3);
+}
+ul li:nth-child(4) img{
+    transform: rotate(10deg);
+}
+@media screen and (max-width: 580px)
+{
+    #mavideo
+    {
+
+        width: 300px;
+        height: 200px;
+        display: inline-block;
+        color: #777;
+    }
+    .main {
+        opacity :0.5;
+        width: 300px;
+        height: 200px;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        color: #777;
+        background-color: black;
+        opacity :0.5;
+        -webkit-transition: opacity 0s linear;
+        -moz-transition: opacity 0s linear;
+        -o-transition: opacity 0s linear;
+        -ms-transition: opacity 0s linear;
+        transition: opacity 0s linear;
+
+
+        -webkit-transform: rotate(-5deg);
+        -moz-transform: rotate(-5deg);
+        -o-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        -transform: rotate(-5deg);
+    }
+
+    ul{
+        display: table;
+        width: 100px;
+        margin-left:32px;
+        margin-top: 12px;
+    }
+    ul li{
+        display: table-cell;
+        width: 180px;
+        height: -20px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    ul li img{
+        width: 150px;
+        height: auto;
+        border: 5px solid white;
+        border-bottom-width: 20px;
+        box-shadow: 0 0 5px black;
+    }
+
+}
+
